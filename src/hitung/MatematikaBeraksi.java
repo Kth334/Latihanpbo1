@@ -3,11 +3,11 @@ package hitung;
 public class MatematikaBeraksi {
     public static void main(String[] args) {
         //membuat objek
-        Matematika qalbi = new Matematika(1,9);
+        Matematika Kitha = new Matematika(9,4);
         
-        System.out.println("Hasil Penjumlahan : " +qalbi.setPenjumlahan());
-        System.out.println("Hasil Pengurangan : " +qalbi.setPengurangan());
-        System.out.println("Hasil Perkalian : " +qalbi.setPerkalian());
-        System.out.println("Hasil Pembagian : " +qalbi.setPembagian());
+        System.out.println("Hasil Penjumlahan : " +Kitha.setPenjumlahan());
+        System.out.println("Hasil Pengurangan : " +Kitha.setPengurangan());
+        System.out.println("Hasil Perkalian : " +Kitha.setPerkalian());
+        System.out.println("Hasil Pembagian : " +Kitha.setPembagian());
     }
 }
